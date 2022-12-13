@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to bottom, rgb(18, 18, 18), rgba(255, 255, 255, 0), transparent 150%),url("../assets/img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.Frame {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 280px;
+    border-radius: 30px;
+    color: antiquewhite;
+}
+.Top {
+    font-size: 30px;
+}
+
+
